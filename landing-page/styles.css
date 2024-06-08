@@ -1,0 +1,155 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+main {
+    margin-top: 70px;
+    padding-top: 70px; 
+  }
+
+#header{
+    background-color: white;
+    display: flex;
+    height: 100px;
+    width:100%;
+    margin-bottom: 50px;
+    position: fixed;
+    top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+#form{
+    margin: 0 auto;
+}
+
+
+#left-side{
+    display: flex;
+    width: 400px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+.title{
+    display:inline;
+}
+
+img {
+   margin-left: 70px;
+}
+
+#header-img{
+    width: 90px;
+    margin-right: 20px
+}
+
+#right-side{
+    width: 900px;
+    display: flex;
+    justify-content: end;
+}
+
+.middle-section{
+    width:500px;
+}
+
+nav{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li{
+    display: inline;
+    padding: 10px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.email-ad{
+    font-size: larger;
+    font-weight: 500;
+}
+
+.submit-section{
+    text-align: center;
+}
+
+#email{
+    margin-top: 20px;
+    width: 300px;
+    height: 30px;
+    border-radius: 45px;
+    text-align: center;
+    font-size: medium;
+}
+
+#submit{
+    background-color:  rgb(247, 205, 144);
+    color: black;
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    border-radius: 45px;
+    cursor: pointer;
+    
+}
+
+footer{
+    background-color: rgb(224, 211, 194);
+    max-height:100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: end;
+}
+
+.footer-p{
+    padding: 10px;
+}
+
+#features{
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+iframe{
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    main {
+        margin-top: 50px;
+        padding-top: 50px;
+    }
+    
+    #left-side, #right-side {
+        width: 100%;
+    }
+    
+    .middle-section {
+        width: 100%;
+    }
+    
+    footer {
+        justify-content: center;
+    }
+}

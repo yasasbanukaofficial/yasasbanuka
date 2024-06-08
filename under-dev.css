@@ -1,0 +1,18 @@
+h1, p{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+
+}
+p{
+    margin-top: 0px;
+
+}
+@media only screen and (max-width: 370px){
+    li{
+        font-size: 10px;
+    }
+    h1, p{
+        font-size: 24px;
+    }
+}
